@@ -7,6 +7,7 @@
 body {
   background-color: #181719;
   color: white;
+  z-index: 1;
 }
 
 /* Heading section of the page */
@@ -86,6 +87,10 @@ a.active {
 
 .content {
   padding: 48px 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
 }
 
 #heading {
@@ -106,4 +111,96 @@ a.active {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
+}
+
+.more {
+  font-size: 18px;
+  padding: 0px 4px;
+  position: relative;
+  top: 4px;
+}
+
+.sample {
+  position: relative;
+}
+
+/* styling designer's information box */
+.des-info {
+  max-width: 300px;
+  background-color: black;
+  box-shadow: 0 0 4px black;
+  position: absolute;
+  right: 18px;
+  bottom: -64px;
+  z-index: 10;
+}
+
+.upper {
+  padding: 13px;
+  width: 100%;
+  display: grid;
+  column-gap: 16px;
+  grid-template-columns: 1fr 5fr;
+}
+
+#designer {
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  background-image: url("images/photo2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.name {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+}
+.job {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#des-by {
+  padding: 0 0 20px 20px;
+  font-family: Lora;
+  font-weight: 700;
+  font-size: 18;
+}
+
+/* styling footer */
+.footer {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding: 5px 0;
+  width: 100%;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: #a9a9a9;
+}
+#creator {
+  text-decoration: none;
+  font-weight: 700;
+  color: #a9a9a9;
+}
+#devIo {
+  text-decoration: none;
+  font-weight: 600;
+  color: #a9a9a9;
+}
+#creator:hover,
+#devIo:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 700px) {
+  .content {
+    flex-direction: row;
+  }
 }
