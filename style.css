@@ -5,6 +5,7 @@
   padding: 0;
 }
 body {
+  padding: 0 12px;
   background-color: #181719;
   color: white;
   z-index: 1;
@@ -18,7 +19,6 @@ body {
 #title {
   display: inline-block;
   float: left;
-  margin-left: 12px;
   font-family: "Crimson Pro";
   font-size: 14px;
   font-weight: 200;
@@ -35,13 +35,15 @@ body {
 
 .icon {
   float: right;
-  margin-right: 7px;
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 #wrapper {
-  padding-top: 14px;
   width: 100vw;
-  overflow-y: hidden;
+  overflow: hidden;
   position: fixed;
   background-color: black;
   top: 0;
@@ -62,6 +64,7 @@ ul {
 }
 
 li {
+  padding: 2px 0;
   list-style-type: none;
   display: inline-block;
   font-size: 18px;
@@ -79,17 +82,17 @@ a.active {
 
 /*  style for content of the page */
 /* clearfix property */
-.content::before {
+.header::after {
   content: "";
   clear: both;
   display: table;
 }
 
 .content {
-  padding: 48px 12px;
+  padding: 48px 0;
   width: 100%;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   row-gap: 40px;
 }
 
@@ -102,7 +105,7 @@ a.active {
 }
 .para {
   margin-top: 25px;
-  width: 250px;
+  max-width: 250px;
   font-family: Montserrat;
   font-size: 14px;
 }
@@ -111,6 +114,10 @@ a.active {
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 700;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .more {
@@ -161,7 +168,7 @@ a.active {
 }
 .job {
   font-family: Montserrat;
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 500;
 }
 
@@ -199,8 +206,57 @@ a.active {
   cursor: pointer;
 }
 
-@media screen and (min-width: 700px) {
-  .content {
+/* @media screen and (min-width: ) */
+
+@media screen and (min-width: 900px) {
+  body {
+    padding: 20px 77px 0;
+  }
+  .icon {
+    display: none;
+  }
+  .nav {
+    display: grid;
+  }
+  #wrapper {
+    width: 100%;
+    display: flex;
+    position: static;
+    background-color: #181719;
+    justify-self: flex-end;
+  }
+  ul {
+    height: auto;
     flex-direction: row;
+    justify-content: flex-end;
+  }
+  li {
+    padding: 2px 0 2px 90px;
+  }
+  .content {
+    grid-template-columns: 4fr 8fr;
+    justify-content: space-between;
+  }
+  .desc {
+    align-self: center;
+  }
+  .para {
+    max-widht: 410px;
+  }
+  .sample {
+    max-width: 737px;
+    justify-self: flex-end;
+  }
+  .des-info {
+    width: 400px;
+  }
+  .name {
+    font-size: 14px;
+  }
+  .job {
+    font-size: 12px;
+  }
+  #des-by {
+    font-size: 24px;
   }
 }
