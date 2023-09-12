@@ -12,11 +12,13 @@ body {
 }
 
 /* Heading section of the page */
-.header {
-  margin-top: 19px;
-}
+/* .header {
+  display: flex;
+  justify-content: space-between;
+} */
 /* style for title of the page */
 #title {
+  margin-top: 19px;
   display: inline-block;
   float: left;
   font-family: "Crimson Pro";
@@ -28,28 +30,31 @@ body {
   border-radius: 4px;
 }
 
-/* style for navigation */
+/* style for navigation  float right*/
+.nav {
+  float: right;
+}
 .material-symbols-outlined {
+  margin-top: 16px;
   padding: 7px;
 }
-
-.icon {
-  float: right;
-  &:hover {
-    cursor: pointer;
-    background-color: rgba(255, 255, 255, 0.3);
-  }
+/* hover effect */
+.icon:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.3);
 }
-
 #close {
-  margin: 18px 30px 0 0;
+  float: right;
+  margin-right: 12px;
 }
 
+/* menu list */
 #wrapper {
   width: 100vw;
-  overflow: hidden;
-  position: fixed;
+  height: 100vh;
   background-color: black;
+  position: fixed;
+  overflow: visible;
   top: 0;
   left: 0;
   /* display none */
@@ -58,26 +63,27 @@ body {
 }
 
 ul {
-  display: flex;
   width: 100%;
-  height: 100vh;
+  height: 80%;
+  list-style-type: none;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   row-gap: 30px;
   justify-content: center;
   align-content: center;
 }
+li a:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
 
-li {
-  padding: 2px 0;
-  list-style-type: none;
-  display: inline-block;
+li a {
+  padding: 6px;
+  font-family: Montserrat;
   font-size: 18px;
   font-weight: 500;
-}
-li a {
-  font-family: Montserrat;
   text-decoration: none;
+  text-align: center;
   color: white;
 }
 a.active {
@@ -133,6 +139,7 @@ a.active {
   top: 4px;
 }
 
+/* styling sample interior design */
 .sample {
   position: relative;
 }
@@ -212,34 +219,37 @@ a.active {
   cursor: pointer;
 }
 
-/* @media screen and (min-width: ) */
-
+/* style for large size screens */
 @media screen and (min-width: 900px) {
   body {
     padding: 20px 77px 0;
   }
+
+  /* icons will be removed */
   .icon {
     display: none;
   }
-  .nav {
-    display: grid;
-  }
+
+  /* displaying horizontal right aligned navigation links */
   #wrapper {
+    margin-top: 30px;
     width: 100%;
-    display: flex;
+    height: auto;
     position: static;
     background-color: #181719;
-    justify-self: flex-end;
+    display: inline-block;
   }
   ul {
-    height: auto;
     flex-direction: row;
-    justify-content: flex-end;
+    column-gap: 90px;
   }
-  li {
-    padding: 2px 0 2px 90px;
+  li a {
+    padding: 10px;
   }
+
+  /* styling content for larger screens to be displayed columns */
   .content {
+    margin-top: 30px;
     grid-template-columns: 4fr 8fr;
     justify-content: space-between;
   }
