@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">Interior Consultant</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,15 +8,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://himanshu-196018.github.io/interior_consultant_challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Himanshu-196018/interior_consultant_challenge">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
+    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
       Challenge
     </a>
   </h3>
@@ -27,7 +27,7 @@
 ## Table of Contents
 
 - [Overview](#overview)
-  - [Built With](#built-with)
+- [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -36,28 +36,30 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](SCREEN SHOT LINK)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+This project is solution to the challage to build My Team page at <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. It is a responsive web page showcasing website for Interior Designer Consultant. I have successfully completed this challange and deployed the web page successfully.
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+- You can view deployed page <a href="https://himanshu-196018.github.io/interior_consultant_challenge/">here</a>.
+
+- This challange was better for improving skills for placing elements at different locations and working with multiple images. It was a wonderfull experience for me. I faced many challenges during this one challange but got a lot of experince from building it.
+
+- From this challange, I have learned better positioning of the elemnts using css. I also leanred flex and grid layout somewhat and how to use them. I came to know that it is better to designed unit(smallest) elements first which improve the placement of other elements.
+
+- Hit and trial is best when learning at a beginner level, after some time you will get the idea what is happening and gain better understanding for desingning a web page. Which will improve your overall skills and improve your pace of work. Keep building keep trying.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML]
+- [CSS]
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application/site to complete the given user stories.
 
 ## Acknowledgements
 
@@ -69,6 +71,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [My-website.com](https://{your-web-site-link})
+- GitHub [@Himanshu_2301](https://github.com/Himanshu-196018)
+- LinkedIn [@Himanshu](https://www.linkedin.com/in/himanshu-kumar-2b7993167)
