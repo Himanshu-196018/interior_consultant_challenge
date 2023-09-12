@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](SCREEN SHOT LINK)
+![screenshot](images/screenshot.png)
 
 This project is solution to the challage to build My Team page at <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. It is a responsive web page showcasing website for Interior Designer Consultant. I have successfully completed this challange and deployed the web page successfully.
 
