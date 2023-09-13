@@ -16,7 +16,7 @@
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U">
+    <a href="https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb">
       Challenge
     </a>
   </h3>
@@ -38,7 +38,7 @@
 
 ![screenshot](images/screenshot.png)
 
-This project is solution to the challage to build My Team page at <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. It is a responsive web page showcasing website for Interior Designer Consultant. I have successfully completed this challange and deployed the web page successfully.
+This project is solution to the challage to build Interior Designer Consultant page at <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>. It is a responsive web page showcasing website for Interior Designer Consultant. I have successfully completed this challange and deployed the web page successfully.
 
 - You can view deployed page <a href="https://himanshu-196018.github.io/interior_consultant_challenge/">here</a>.
 
@@ -59,7 +59,7 @@ This project is solution to the challage to build My Team page at <a href="http:
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application/site to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application/site to complete the given user stories.
 
 ## Acknowledgements
 
